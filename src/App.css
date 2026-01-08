@@ -1,0 +1,27 @@
+/* Reset previous template garbage */
+#root {
+  margin: 0;
+  padding: 0;
+  max-width: none;
+}
+
+/* Smooth animations */
+* {
+  scroll-behavior: smooth;
+}
+
+/* Prevent accidental text selection on UI components */
+button, a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Improve rendering quality */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Card utility (if needed anywhere) */
+.card {
+  @apply rounded-2xl border border-border bg-card shadow-sm;
+}

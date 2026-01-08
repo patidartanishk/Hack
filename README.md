@@ -1,2 +1,1 @@
-# Hack
-our hackathon repo
+# Pathly

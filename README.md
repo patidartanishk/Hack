@@ -1,0 +1,2 @@
+# Hack
+our hackathon repo
